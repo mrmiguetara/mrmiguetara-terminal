@@ -26,9 +26,9 @@ export const gui = async (args: string[]): Promise<string> => {
 };
 
 export const email = async (args: string[]): Promise<string> => {
-  window.open('mailto:hi@nm4tt72.com');
+  window.open('mailto:mrmiguetara@gmail.com');
 
-  return 'Opening mailto:hi@m4tt72.com...';
+  return 'Opening mailto:mrmiguetara@gmail.com...';
 };
 
 export const vi = async (args: string[]): Promise<string> => {
@@ -67,20 +67,26 @@ export const donate = async (args?: string[]): Promise<string> => {
 
 export const banner = (args?: string[]): string => {
   return `
-███╗   ███╗██╗  ██╗████████╗████████╗███████╗██████╗
-████╗ ████║██║  ██║╚══██╔══╝╚══██╔══╝╚════██║╚════██╗
-██╔████╔██║███████║   ██║      ██║       ██╔╝ █████╔╝
-██║╚██╔╝██║╚════██║   ██║      ██║      ██╔╝ ██╔═══╝
-██║ ╚═╝ ██║     ██║   ██║      ██║      ██║  ███████╗
-╚═╝     ╚═╝     ╚═╝   ╚═╝      ╚═╝      ╚═╝  ╚══════╝ v${packageJson.version}
+ __       __            __       __  __                                  __                                  
+/  \\     /  |          /  \\     /  |/  |                                /  |                                 
+$$  \\   /$$ |  ______  $$  \\   /$$ |$$/   ______   __    __   ______   _$$ |_     ______    ______   ______  
+$$$  \\ /$$$ | /      \\ $$$  \\ /$$$ |/  | /      \\ /  |  /  | /      \\ / $$   |   /      \\  /      \\ /      \\ 
+$$$$  /$$$$ |/$$$$$$  |$$$$  /$$$$ |$$ |/$$$$$$  |$$ |  $$ |/$$$$$$  |$$$$$$/    $$$$$$  |/$$$$$$  |$$$$$$  |
+$$ $$ $$/$$ |$$ |  $$/ $$ $$ $$/$$ |$$ |$$ |  $$ |$$ |  $$ |$$    $$ |  $$ | __  /    $$ |$$ |  $$/ /    $$ |
+$$ |$$$/ $$ |$$ |      $$ |$$$/ $$ |$$ |$$ \\__$$ |$$ \\__$$ |$$$$$$$$/   $$ |/  |/$$$$$$$ |$$ |     /$$$$$$$ |
+$$ | $/  $$ |$$ |      $$ | $/  $$ |$$ |$$    $$ |$$    $$/ $$       |  $$  $$/ $$    $$ |$$ |     $$    $$ |
+$$/      $$/ $$/       $$/      $$/ $$/  $$$$$$$ | $$$$$$/   $$$$$$$/    $$$$/   $$$$$$$/ $$/       $$$$$$$/ 
+                                        /  \\__$$ |                                                           
+                                        $$    $$/                                                            
+                                         $$$$$$/                                                             
 
+Hi, my name is Miguel Alejandro González Jiménez
+I'm a software engineer and currently enrolled in a M.S. program at the University of Puerto Rico.
 Type 'help' to see list of available commands.
 
+For example, you can type 'projects' to see a list of my most relevant projects
 --
-The project is open-source 🎉 type 'repo' to check out the repository.
 
-New 🎉: Try out the new 'theme' command. See all available themes <a href="https://github.com/m4tt72/terminal/tree/master/docs/themes">in the docs</a>.
-New 🎉: New command 'neofetch', for you linux.
 --
 `;
 };
