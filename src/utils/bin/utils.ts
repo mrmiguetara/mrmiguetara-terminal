@@ -26,9 +26,9 @@ export const gui = async (args: string[]): Promise<string> => {
 };
 
 export const email = async (args: string[]): Promise<string> => {
-  window.open('mailto:mrmiguetara@gmail.com');
+  window.open('mailto:hi@nm4tt72.com');
 
-  return 'Opening mailto:mrmiguetara@gmail.com...';
+  return 'Opening mailto:hi@m4tt72.com...';
 };
 
 export const vi = async (args: string[]): Promise<string> => {
@@ -67,19 +67,12 @@ export const donate = async (args?: string[]): Promise<string> => {
 
 export const banner = (args?: string[]): string => {
   return `
-
- __       __            __       __  __                                  __                                   
-/  \\     /  |          /  \\     /  |/  |                                /  |                                  
-$$  \\   /$$ |  ______  $$  \\   /$$ |$$/   ______   __    __   ______   _$$ |_     ______    ______    ______  
-$$$  \\ /$$$ | /      \\ $$$  \\ /$$$ |/  | /      \\ /  |  /  | /      \\ / $$   |   /      \\  /      \\  /      \\ 
-$$$$  /$$$$ |/$$$$$$  |$$$$  /$$$$ |$$ |/$$$$$$  |$$ |  $$ |/$$$$$$  |$$$$$$/    $$$$$$  |/$$$$$$  | $$$$$$  |
-$$ $$ $$/$$ |$$ |  $$/ $$ $$ $$/$$ |$$ |$$ |  $$ |$$ |  $$ |$$    $$ |  $$ | __  /    $$ |$$ |  $$/  /    $$ |
-$$ |$$$/ $$ |$$ |      $$ |$$$/ $$ |$$ |$$ \\__$$ |$$ \\__$$ |$$$$$$$$/   $$ |/  |/$$$$$$$ |$$ |      /$$$$$$$ |
-$$ | $/  $$ |$$ |      $$ | $/  $$ |$$ |$$    $$ |$$    $$/ $$       |  $$  $$/ $$    $$ |$$ |      $$    $$ |
-$$/      $$/ $$/       $$/      $$/ $$/  $$$$$$$ | $$$$$$/   $$$$$$$/    $$$$/   $$$$$$$/ $$/        $$$$$$$/ 
-                                        /  \\__$$ |                                                            
-                                        $$    $$/                                                             
-                                         $$$$$$/                                                              v${packageJson.version}
+███╗   ███╗██╗  ██╗████████╗████████╗███████╗██████╗
+████╗ ████║██║  ██║╚══██╔══╝╚══██╔══╝╚════██║╚════██╗
+██╔████╔██║███████║   ██║      ██║       ██╔╝ █████╔╝
+██║╚██╔╝██║╚════██║   ██║      ██║      ██╔╝ ██╔═══╝
+██║ ╚═╝ ██║     ██║   ██║      ██║      ██║  ███████╗
+╚═╝     ╚═╝     ╚═╝   ╚═╝      ╚═╝      ╚═╝  ╚══════╝ v${packageJson.version}
 
 Type 'help' to see list of available commands.
 
