@@ -105,7 +105,9 @@ Hi, my name is Miguel Alejandro González Jiménez
 I'm a software engineer and currently enrolled in a M.S. program at the University of Puerto Rico.
 Type 'help' to see list of available commands.
 
-For example, you can type 'projects' to see a list of my most relevant projects
+For example, you can type 'projects' to see a list of my most relevant projects.
+
+Type 'gui' to see a more visual version of my portfolio.
 --
 
 --
