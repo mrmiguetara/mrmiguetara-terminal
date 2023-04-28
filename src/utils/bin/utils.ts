@@ -65,7 +65,7 @@ export const donate = async (args?: string[]): Promise<string> => {
   return 'Opening donation url...';
 };
 
-export const banner = (args?: string[]): string => {
+export const banner2 = (args?: string[]): string => {
   return `
  __       __            __       __  __                                  __                                  
 /  \\     /  |          /  \\     /  |/  |                                /  |                                 
@@ -79,6 +79,27 @@ $$/      $$/ $$/       $$/      $$/ $$/  $$$$$$$ | $$$$$$/   $$$$$$$/    $$$$/  
                                         /  \\__$$ |                                                           
                                         $$    $$/                                                            
                                          $$$$$$/                                                             
+
+Hi, my name is Miguel Alejandro González Jiménez
+I'm a software engineer and currently enrolled in a M.S. program at the University of Puerto Rico.
+Type 'help' to see list of available commands.
+
+For example, you can type 'projects' to see a list of my most relevant projects
+--
+
+--
+`;
+};
+
+export const banner = (args?: string[]): string => {
+  return `
+##     ## ####  ######   ##     ## ######## ##           ######    #######  ##    ## ########    ###    ##       ######## ######## 
+###   ###  ##  ##    ##  ##     ## ##       ##          ##    ##  ##     ## ###   ##      ##    ## ##   ##       ##            ##  
+#### ####  ##  ##        ##     ## ##       ##          ##        ##     ## ####  ##     ##    ##   ##  ##       ##           ##   
+## ### ##  ##  ##   #### ##     ## ######   ##          ##   #### ##     ## ## ## ##    ##    ##     ## ##       ######      ##    
+##     ##  ##  ##    ##  ##     ## ##       ##          ##    ##  ##     ## ##  ####   ##     ######### ##       ##         ##     
+##     ##  ##  ##    ##  ##     ## ##       ##          ##    ##  ##     ## ##   ###  ##      ##     ## ##       ##        ##      
+##     ## ####  ######    #######  ######## ########     ######    #######  ##    ## ######## ##     ## ######## ######## ######## 
 
 Hi, my name is Miguel Alejandro González Jiménez
 I'm a software engineer and currently enrolled in a M.S. program at the University of Puerto Rico.
